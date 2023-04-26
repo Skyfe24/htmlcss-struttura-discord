@@ -130,9 +130,13 @@ min-height: 300px;
     align-items: center;
 }
     .logo{
-
+        border: dashed  rgb(14, 13, 13);
+        background-color: pink;
+        padding: 5px;
     }
 
     .bottone{
-
+        border: dashed rgb(14, 13, 13);
+        background-color: pink;
+        padding: 5px;
     }
