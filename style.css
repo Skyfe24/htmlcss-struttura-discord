@@ -38,22 +38,20 @@ header{
     flex-basis: 15%;
     min-height: 30px;
     border: dashed black;
-    text-align: center;
+    text-align: right;
     margin: auto;
 }
 body{
     background-color: white;
 }
 
-footer{
-    height: 70px;
-    background-color: dimgray;
-    margin-top: 15px;
-}
+
 .container-flex1{
     max-height: 70px;
     display: flex;
     flex-direction: row;
+    align-items: center;
+    
 }
 .container-flex{
     display: flex;
@@ -121,3 +119,20 @@ min-height: 300px;
     min-height: 30px;
     border: dashed rgb(248, 246, 246);
 }
+.aqualine{
+    background-color: rgb(71, 206, 109);
+    margin-left: 300px;
+    margin-right: 300px;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+    .logo{
+
+    }
+
+    .bottone{
+
+    }
