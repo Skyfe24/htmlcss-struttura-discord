@@ -75,12 +75,13 @@ min-height: 300px;
 .jumbo{
     margin-left: 300px;
     margin-right: 300px;
-
+    padding: 30px;
 }
 .pinksquare{
     background-color: pink;
-    width: 700px;
+    width: 840px;
     height: 300px;
+    
     
     
 }
@@ -110,4 +111,13 @@ min-height: 300px;
 }
 .wrapper{
     padding: 20px 0;
+}
+.bg-darkgrey{
+    background-color: rgb(30, 38, 38);
+}
+.columns{
+    background-color: rgb(99, 226, 246);
+    flex-basis: 16.5%;
+    min-height: 30px;
+    border: dashed rgb(248, 246, 246);
 }
