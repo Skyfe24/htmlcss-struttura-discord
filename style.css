@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+    padding: 5px;
+}
+
+header{
+    height: 1000px;
+    background-color: aquamarine;
+    margin-bottom: 15px;
+    margin: auto;
+    
+    
+}
+.bar1{
+    background-color: rgb(248, 116, 27);
+    flex-basis: 15%;
+    min-height: 30px;
+    border: dashed black;
+    margin: auto;
+    
+   
+}
+.bar2{
+    background-color: rgb(248, 116, 27);
+    flex-basis: 30%;
+    min-height: 30px;
+    border: dashed black;
+    text-align: center;
+    margin: auto;
+}
+.bar3{
+    background-color: rgb(248, 116, 27);
+    flex-basis: 15%;
+    min-height: 30px;
+    border: dashed black;
+    text-align: center;
+    margin: auto;
+}
+body{
+    background-color: white;
+}
+
+footer{
+    height: 70px;
+    background-color: dimgray;
+    margin-top: 15px;
+}
+.container-flex1{
+    max-height: 70px;
+    display: flex;
+    flex-direction: row;
+}
+.container-flex{
+    display: flex;
+    flex-direction: row;
+    margin-left: 300px;
+    margin-right: 300px;
+    margin-bottom: 40px;
+}
+.left-column{
+flex-basis: 66% ;
+background-color: rgb(46, 76, 228);
+min-height: 300px;
+
+}
+.right-column{
+    flex-basis: 34% ;
+    background-color: rgb(227, 83, 218);
+    min-height: 300px;
+}
+.jumbo{
+    background-color: blue;
+    height: 400px;
+    margin-bottom: 40px;
+
+}
+.pinksquare{
+    background-color: pink;
+    width: 500px;
+    height: 300px;
+    margin-top: 50px;
+    min-height: 30px;
+    text-align: center;
+    margin: auto;
+    
+}
+.flex-grey{
+    height: 1000px;
+    background-color: rgb(77, 80, 79);
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: row;
+}
