@@ -60,7 +60,6 @@ footer{
     flex-direction: row;
     margin-left: 300px;
     margin-right: 300px;
-    margin-bottom: 40px;
 }
 .left-column{
 flex-basis: 66% ;
@@ -74,25 +73,41 @@ min-height: 300px;
     min-height: 300px;
 }
 .jumbo{
-    background-color: blue;
-    height: 400px;
-    margin-bottom: 40px;
+    margin-left: 300px;
+    margin-right: 300px;
 
 }
 .pinksquare{
     background-color: pink;
-    width: 500px;
+    width: 700px;
     height: 300px;
-    margin-top: 50px;
-    min-height: 30px;
-    text-align: center;
-    margin: auto;
+    
     
 }
 .flex-grey{
-    height: 1000px;
+    height: 500px;
     background-color: rgb(77, 80, 79);
-    margin-bottom: 15px;
     display: flex;
     flex-direction: row;
+    margin-left: 300px;
+    margin-right: 300px;
+
+}
+.bg-grey{
+    background-color: grey;
+
+
+}
+.bg-blue{
+    background-color: blue;
+}
+.greensquare{
+    background-color: green;
+    margin-left: 300px;
+    margin-right: 300px;
+    height: 600px;
+
+}
+.wrapper{
+    padding: 20px 0;
 }
