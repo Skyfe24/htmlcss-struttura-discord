@@ -10,36 +10,39 @@ body{
 
 header{
     height: 1000px;
-    background-color: aquamarine;
     margin-bottom: 15px;
     margin: auto;
-    
-    
+}
+.bg-lightblue{
+    background-color: rgb(67, 124, 194);
+}
+.navbar{
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 .bar1{
-    background-color: rgb(248, 116, 27);
-    flex-basis: 15%;
-    min-height: 30px;
-    border: dashed black;
-    margin: auto;
+    border: dashed  rgb(14, 13, 13);
+    background-color: orange;
+    padding: 5px;
+    flex-basis: 25%;
     
    
 }
 .bar2{
-    background-color: rgb(248, 116, 27);
-    flex-basis: 30%;
-    min-height: 30px;
-    border: dashed black;
+    border: dashed  rgb(14, 13, 13);
+        background-color: orange;
+        padding: 5px;
     text-align: center;
-    margin: auto;
+    flex-basis: 50%;
 }
 .bar3{
-    background-color: rgb(248, 116, 27);
-    flex-basis: 15%;
-    min-height: 30px;
-    border: dashed black;
+    border: dashed  rgb(14, 13, 13);
+        background-color: orange;
+        padding: 5px;
     text-align: right;
-    margin: auto;
+    flex-basis: 25%;
 }
 body{
     background-color: white;
@@ -77,7 +80,7 @@ min-height: 300px;
 }
 .pinksquare{
     background-color: pink;
-    width: 840px;
+    width: 620px;
     height: 300px;
     
     
